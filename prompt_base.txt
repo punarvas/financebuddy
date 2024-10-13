@@ -1,0 +1,29 @@
+
+**##**####**
+
+Next month budget:
+Food=#fff#
+Grocery=#ggg#
+Utilities=#uuu#
+Rent=#rrr#
+Mobile=#mmm#
+Social activities=#sss#
+
+
+Based on the next month's budget and given analysis of the statement in JSON, create a fun challenge to earn XP for each $5 saved.
+Infer yourself on what categories the user can save and limit the challenge response text to 50 words or fewer.
+Remember that user cannot be able to make adjustments with Rent and Mobile category. It turns out that you
+can also suggest challenges that will save on other categories to support financing of Rent and Mobile categories.
+The challenge should not combine more than two activities. If you do so, the user might get a burden and won't
+understand the goal. The challenge can also include distributing expenses among categories to stay within budget.
+Based on your knowledge and information from the keywords, day-wise expenses, category-wise expenses,
+suggest smart saving hints or tips. If you provide examples, it will be better and easy to understand.
+Response format should be JSON which has title, first challenge as key and its corresponding challenge text as value and so on. Only two challenges per JSON in following format:
+{
+"title":<challenge title>,
+"challenge1_text":<challenge 1 text>,
+"challenge1_hints": <challenge 1 hints>,
+"challenge2_text":<challenge 2 text>,
+"challenge2_hints": <challenge 2 hints>,
+}
+"""

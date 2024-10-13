@@ -1,0 +1,158 @@
+{
+    "total_spent": "857",
+    "minimum_spent": "1",
+    "maximum_spent": "441",
+    "number_of_entries_day": {
+        "Tuesday": "7",
+        "Sunday": "4",
+        "Monday": "3",
+        "Friday": "3",
+        "Wednesday": "2"
+    },
+    "category_wise_expenses": {
+        "General": "811",
+        "Groceries": "13",
+        "Liquor": "33"
+    },
+    "category_wise_min_expenses": {
+        "General": "1",
+        "Groceries": "1",
+        "Liquor": "9"
+    },
+    "category_wise_max_expenses": {
+        "General": "441",
+        "Groceries": "12",
+        "Liquor": "13"
+    },
+    "keywords": [
+        "grocery",
+        "boneless",
+        "shopping",
+        "club",
+        "rice",
+        "april",
+        "walmart",
+        "bill",
+        "milk",
+        "wing",
+        "party",
+        "wings",
+        "payment",
+        "wild",
+        "buffallo",
+        "basmati",
+        "dte"
+    ],
+    "day_wise_total_expenses": {
+        "Friday": "178",
+        "Monday": "500",
+        "Sunday": "74",
+        "Tuesday": "83",
+        "Wednesday": "22"
+    },
+    "day_wise_min_expenses": {
+        "Friday": "1",
+        "Monday": "12",
+        "Sunday": "5",
+        "Tuesday": "1",
+        "Wednesday": "9"
+    },
+    "day_wise_max_expenses": {
+        "Friday": "166",
+        "Monday": "441",
+        "Sunday": "47",
+        "Tuesday": "39",
+        "Wednesday": "13"
+    },
+    "category_payment_on_what_days": {
+        "General": [
+            "Tuesday",
+            "Tuesday",
+            "Tuesday",
+            "Tuesday",
+            "Monday",
+            "Monday",
+            "Sunday",
+            "Sunday",
+            "Sunday",
+            "Sunday",
+            "Wednesday",
+            "Friday",
+            "Friday",
+            "Tuesday"
+        ],
+        "Groceries": [
+            "Tuesday",
+            "Monday"
+        ],
+        "Liquor": [
+            "Wednesday",
+            "Friday",
+            "Tuesday"
+        ]
+    },
+    "category_wise_day_wise_expenses": {
+        "[General, Friday]": "167",
+        "[General, Monday]": "488",
+        "[General, Sunday]": "74",
+        "[General, Tuesday]": "73",
+        "[General, Wednesday]": "9",
+        "[Groceries, Monday]": "12",
+        "[Groceries, Tuesday]": "1",
+        "[Liquor, Friday]": "11",
+        "[Liquor, Tuesday]": "9",
+        "[Liquor, Wednesday]": "13"
+    },
+    "day_expenses_description_keywords": {
+        "Friday": [
+            "buffallo",
+            "wings",
+            "party",
+            "payment",
+            "payment"
+        ],
+        "Monday": [
+            "payment",
+            "grocery",
+            "walmart",
+            "payment"
+        ],
+        "Sunday": [
+            "dte",
+            "bill",
+            "(aug",
+            "-",
+            "sept)",
+            "boneless",
+            "and",
+            "bone-in",
+            "wings",
+            "payment",
+            "payment"
+        ],
+        "Tuesday": [
+            "payment",
+            "basmati",
+            "rice",
+            "milk",
+            "21",
+            "april",
+            "shopping",
+            "april",
+            "21",
+            "shopping",
+            "payment",
+            "buffallo",
+            "wild",
+            "wing",
+            "party",
+            "shopping"
+        ],
+        "Wednesday": [
+            "club",
+            "party",
+            "",
+            "payment"
+        ]
+    }
+}
