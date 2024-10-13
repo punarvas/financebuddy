@@ -10,6 +10,8 @@ import streamlit as st
 import openai
 from datetime import datetime
 import json
+import os
+from dotenv import load_dotenv
 
 
 def greet_based_on_time():
@@ -165,7 +167,8 @@ def click_button(food, groceries, utility, rent, mobile, social):
 
 # Main Streamlit app
 if __name__ == "__main__":
-    OPENAI_API_KEY = "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"
+    load_dotenv()
+    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
     openai.api_key = OPENAI_API_KEY
     download_data()
     analyze()

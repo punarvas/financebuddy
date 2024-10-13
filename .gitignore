@@ -4,3 +4,4 @@ __pycache__
 ref
 .idea
 auth.json
+.env
